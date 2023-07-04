@@ -34,7 +34,7 @@ def predict():
             return render_template('/predict.html', prediction = prediction)
    
         except ValueError:
-            return "Please Enter valid values"
+            return "Please enter valid values"
   
         pass
     pass
